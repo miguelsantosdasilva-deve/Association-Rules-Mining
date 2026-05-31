@@ -147,7 +147,7 @@ Confidence alone can be misleading when the consequent is a high-frequency item.
 ## Project Structure
 
 ```
-Trabalho_Regras_de_Associação.ipynb   # Data preparation notebook
+association_rules_apriori.ipynb       # Data preparation notebook
 supermarket.arff                      # Original dataset (Weka format)
 supermarket_clean.csv                 # Cleaned dataset exported for Weka
 relatorio_apriori.pdf                 # Full technical report with rule analysis
@@ -165,7 +165,7 @@ README.md                             # Project documentation
    ```
 3. Run the notebook:
    ```bash
-   jupyter notebook Trabalho_Regras_de_Associação.ipynb
+   jupyter notebook association_rules_apriori.ipynb
    ```
 4. Load `supermarket_clean.csv` into the Weka Explorer (Classify > Associate > Apriori) and configure parameters as described above.
 
